@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+.font {
+    font-family: 'Comfortaa', cursive;
+}
+
+.header-container {
+    background-color: #063970;
+    width: 100%;
+}
+
+.nav_container{
+    margin-left: 20px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    align-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+}
+  
+.navbar a:hover {
+    color: #f2f2f2;
+    border-bottom: 4px solid #e7c119;
+}
+  
+
+.navbar a.active {
+    color: #f2f2f2;
+    border-bottom: 4px solid #e7c119;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.perfil {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
+.descricao {
+    margin-bottom: 10%;
+}
+.contacts {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+.link-social {
+    margin-right: 3rem;
+}
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.center-text {
+    text-align: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    margin-bottom: 20px;
+}
+.project-img {
+    display: flex;
+    max-width: 50%;
+    height: 50%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.img {
+    border-radius: 20px;
+    width: 270px;
+    height: 150px;
+}
+.minhas-skills {
+    display: flex;
+}
+
+.skill-title{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.skill-icon {
+    margin: 10px;
+    max-width: 100%;
+    height: 85px;
+}
+.skill-card {
+    margin: auto;
+    display: flex !important;
+    width: 400px;
+    border-radius: 50px !important;
+}
+.icons-container{
+    margin-bottom: 1.5rem;
+}
