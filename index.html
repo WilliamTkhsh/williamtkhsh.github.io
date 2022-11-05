@@ -13,10 +13,23 @@
           
 </head>
 <body>
+    <div class="sidebar">
+        <a class="sidenav" href="#home">Home</a>
+        <a class="sidenav" href="#about">Sobre mim</a>
+        <a class="sidenav" href="#projects">Meus Projetos</a>
+        <a class="sidenav" href="#skills">Skills</a>
+      </div>
     <header class="header-container navbar navbar-expand-lg navbar-dark bd-navbar sticky-top font">
         <div class="header">
             <nav class="nav_container">
                 <ul class="navbar">
+                    <li class="hi-trigger ma-trigger">
+                        <div class="line-wrap">
+                            <div class="line top" style="background-color: white;"></div>
+                            <div class="line line-center" style="background-color: white;"></div>
+                            <div class="line bottom" style="background-color: white;"></div>
+                        </div>
+                    </li>
                     <li><a href="#home" class="home">Home</a></li>
                     <li><a href="#about" class="sobre_mim">Sobre mim</a></li>
                     <li><a href="#projects" class="meus_projetos">Meus Projetos</a></li>
@@ -44,12 +57,12 @@
                     <a class="btn btn-lg btn-outline-dark d-flex align-items-center justify-content-center link-social" href="https://rytas.itch.io/">Itch.io</a>
                 </div>
             </div>
-            <img src="sources\images\ryo.png" style="border-radius: 60%; margin: 10%;max-width: 100%;">
+            <img class="profile_img" src="sources\images\ryo.png" style="border-radius: 60%; margin: 10%;max-width: 100%;">
         </div>
 
         <div id="about" style="background-color: whitesmoke">
             <div class="about container py-5 font section d-flex">
-                <img src="sources\images\eu2.jfif" style="max-height: 500px; max-width: 100%; margin-top: 80px; margin-bottom: 80px;border-radius: 20px;">
+                <img class="img_about" src="sources\images\eu2.jfif" style="max-height: 100%; max-width: 100%; height: 500px; margin-top: 80px; margin-bottom: 80px;border-radius: 20px;">
                 <div class="row d-flex flex-coloumn">
                     <div class="sobre-mim" style="padding:50px; margin-left: 50px; margin-top: 80px; margin-bottom: 80px">
                         <h1 style="padding: 20px">Sobre mim</h1>
@@ -198,5 +211,6 @@
 
         </div>
     </footer>
+    <script src="sources/scripts.js"></script>
 </body>
 </html>
