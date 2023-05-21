@@ -5,7 +5,7 @@
 }
 
 .header-container {
-    background-color: #063970;
+    background-color: #002145;
     width: 100%;
 }
 
@@ -33,13 +33,17 @@
   
 .navbar a:hover {
     color: #f2f2f2;
-    border-bottom: 4px solid #e7c119;
+    border-bottom: 4px solid #ffffff;
 }
   
 
 .navbar a.active {
     color: #f2f2f2;
-    border-bottom: 4px solid #e7c119;
+    border-bottom: 4px solid #ffffff;
+}
+
+.secondary-section {
+    background-color: whitesmoke;
 }
 
 .line-wrap {
@@ -93,7 +97,6 @@
     height: 100vh;
     width: 100vw;
     background-size: contain;
-    background-color: white;
     display: flex;
     flex-direction: row;
 }
